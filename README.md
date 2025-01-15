@@ -1,13 +1,31 @@
 # Setup VPS for Debian
 
-Welcome to this guide on setting up your VPS for Debian! This document outlines the steps to initialize your VPS, configure SSH access, and execute the setup script. Follow these instructions to streamline your VPS configuration process.
+Welcome to this guide on setting up your VPS for Debian! This document outlines the steps to initialize your VPS, configure SSH access, and execute the setup script. Follow these instructions to streamline your VPS configuration process. 🚀
 
 ---
 
 ## **Prerequisites**
-- A Debian-based VPS.
-- SSH access to your VPS.
-- A terminal on your local machine with SSH installed.
+- 🌐 A Debian-based VPS.
+- 🔐 SSH access to your VPS.
+- 💻 A terminal on your local machine with SSH installed.
+
+---
+
+## **What Does the Setup Script Do?**
+The script automates the essential tasks to secure and configure your VPS. Here's what it includes:
+
+1. 🛠️ **Creates an admin user** and sets up SSH keys for secure access.
+2. 🔒 **Secures SSH configuration** (port, disables root login, enforces public key authentication).
+3. 📦 **Updates the system** and installs basic tools.
+4. 🛡️ **Configures a firewall** using UFW.
+5. 👮 **Installs and sets up Fail2Ban** for intrusion prevention.
+6. ⏰ **Sets the timezone** and disables unnecessary services.
+7. 🐳 **Installs Docker** for containerization.
+8. 🔄 **Tests SSH connectivity**.
+9. 🎨 **Installs Zsh**, Oh My Zsh, and the Powerlevel10k theme for a beautiful shell.
+10. 🧹 **Cleans up default settings** and removes unused accounts.
+
+At the end, the script provides a summary of the status of each section. ✅❌
 
 ---
 
@@ -84,9 +102,9 @@ ssh-keygen -R <IP>
 ---
 
 ## **Tips for a Smooth Setup**
-- Ensure your local machine has the necessary permissions to access the `.ssh` folder.
-- Always verify the IP address of your VPS before running any command.
-- Keep a backup of your SSH keys in a secure location.
+- 🔧 Ensure your local machine has the necessary permissions to access the `.ssh` folder.
+- 🔍 Always verify the IP address of your VPS before running any command.
+- 🔐 Keep a backup of your SSH keys in a secure location.
 
 ---
 
@@ -97,10 +115,10 @@ This setup guide is released under the [MIT License](https://opensource.org/lice
 
 ## **Contact**
 If you encounter any issues or have questions, feel free to reach out:
-- **Email**: Mlucas44@outlook.fr
-- **GitHub**: [YourGitHubProfile](https://github.com/Mlucas44)
+- 📧 **Email**: Mlucas44@outlook.fr
+- 🐙 **GitHub**: [YourGitHubProfile](https://github.com/Mlucas44)
 
 ---
 
-Enjoy your new VPS setup!
+🎉 **Enjoy your new VPS setup!**
 
